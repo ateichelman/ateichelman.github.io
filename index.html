@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <!--
+    https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-personal-portfolio-webpage
+
+    User Story #9: My portfolio should have at least one media query.
+
+  -->
+  <head>
+    <meta  charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="bootstrap-4.5.0-dist\css\bootstrap.css" >
+  </head>
+  <body>
+  <header>
+    <nav id="navbar" class="navbar navbar-light bg-light">
+            <a class="nav-item nav-link" href="#portfolio-content">Home</a>
+            <a class="nav-item nav-link" href="#projects">Projects</a>
+            <a class="nav-item nav-link" href="#contact">Contact</a>
+    </nav>
+  </header>
+  <div id="portfolio-content">
+    <section id="welcome-section">
+      <div class="container d-flex h-100 justify-content-center">
+        <div class="row align-self-center">
+          <div class="col-12">
+            <h1>Austin Teichelman</h1>
+            <p>
+              Front-end Web Development and Design
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <div class="container d-flex h-100 justify-content-center">
+        <div class="row align-self-center">
+          <div class="col-12">
+            <div class="jumbotron">
+              <h2 class="display-4">PROJECT TITLE</h2>
+              <p class="lead">Blurb about project goes here</p>
+              <hr class="my-4">
+              <p>Follow up blurb goes here.</p>
+              <p class="lead">
+                <a class="btn btn-primary btn-lg" href="#" target="_blank">Visit in New Tab</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="container-fluid d-flex h-100 justify-content-center">
+        <div class="row align-self-center">
+          <div class="col">
+            <div class="card">
+              <div class="card-body">
+                If you're interested in working with me, feel free to contact me via <a href="mailto:ateichelman@gmail.com">Email</a>.
+              </div>
+              <div class="card-body">
+                You can find additional examples of my work on my <a href="https://github.com/ateichelman" target="_blank">Github</a>.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <footer>
+
+  </footer>
+  </body>
+</html>

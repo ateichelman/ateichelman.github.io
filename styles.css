@@ -1,0 +1,32 @@
+@media query {
+
+}
+
+body, html {
+  height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+#navbar {
+  width: 100%;
+  border-radius:0px;
+  margin-bottom: 0px;
+  position: fixed;
+  z-index: 5;
+}
+
+.nav-item:hover {
+  background-color: #d1d1d1;
+}
+
+section {
+  height: 100vh;
+}
+
+.card{
+  padding: 10%;
+}
