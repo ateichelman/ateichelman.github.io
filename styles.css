@@ -3,13 +3,43 @@
 }
 
 body, html {
-  height: 100%;
+  min-height: 100%;
+  background-color: #B2D9EA; /* Fallback Color */
+  top: 0;
+  bottom: 0;
+  background: linear-gradient( to bottom right, #619196, #84B5C8, #B2D9EA, #F4ECE2, #D6C5AD );
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 html {
   scroll-behavior: smooth;
 }
 
+#portfolio-content {
+  position: relative;
+}
+
+.typed {
+  overflow: hidden;
+  border-right: 0.10em solid black;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.10em;
+  animation:
+    typing 3.5s steps(40, end),
+    blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {width: 0}
+  to {width: 100%}
+}
+
+@keyframes blink-caret{
+  from, to {border-color: transparent}
+  50% {border-color: black;}
+}
 
 #navbar {
   width: 100%;
